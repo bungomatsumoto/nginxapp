@@ -1,3 +1,97 @@
-// Place all the styles related to the blogs controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  color: #333;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+.header_container {
+  background-color: #ce41e1;
+}
+
+h2{
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+a:link, a:visited {
+  color: #333;
+}
+
+.main_container {
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single_blog .blog_show {
+  padding-bottom: 20px;
+  margin-bottom: 45px;
+}
+
+.blog_title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog_content {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.blog_link {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.blog_link span a{
+  color: #4156e1;
+  font-size: 1rem;
+}
+
+.blog_fill {
+  margin-bottom: 30px;
+}
+
+.button input {
+  border-radius: 0.8rem;
+}
+
+.blog_show.label {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.blog_show.detail {
+  font-size: 1.6rem;
+}
+
+.to_other_page {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  width: 150px;
+  background-color: #dddded;
+  border-radius: 0.8rem;
+  border: solid 0.5px #c5c5d6;
+  text-align: center;
+  font-size: 1rem;
+}

@@ -1,13 +1,13 @@
-<h2>投稿詳細</h2>
+<h3>投稿詳細</h3>
 
-<div class="">
-  <p>タイトル</p>
-  <p><%= @blog.title %></p>
+<div class="blog_show">
+  <p class="label">タイトル</p>
+  <p class="detail"><%= @blog.title %></p>
 </div>
 
-<div class="">
-  <p>内容</p>
-  <p><%= @blog.content %></p>
+<div class="blog_show">
+  <p class="label">内容</p>
+  <p class="detail"><%= @blog.content %></p>
 </div>
 
 <p class="to_other_page"><%= link_to '編集する', edit_blog_path(@blog) %></p>
